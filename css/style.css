@@ -1,0 +1,43 @@
+/* TOP-CONTENT */
+.top-content {
+    height: calc(100vh - 100px);
+    /* debug */
+    background-color: coral;
+}
+
+/* sidebar */
+.sidebar {
+    width: 300px;
+    height: 100%;
+    /* debug */
+    background-color: aqua;
+}
+
+/* content */
+.content {
+    width: calc(100vw - 300px);
+    height: 100%;
+    /* debug */
+    background-color: aquamarine;
+}
+
+.header-content {
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.main-content {
+    padding-top: 7rem;
+    overflow: auto;
+    height: calc(100vh - 100px);
+}
+
+/* FOOTER */
+footer {
+    height: 100px;
+    background-color: #282828;
+}
