@@ -6,7 +6,7 @@ body {
 h1 {
     font-weight: bold;
     font-size: 2rem;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1rem .5rem;
     color: white;
 }
 
@@ -137,7 +137,7 @@ a {
     width: 16rem;
     text-align: center;
     cursor: pointer;
-    margin-right: .5rem;
+    margin-right: 1.2rem;
 }
 
 /* main-content */
@@ -165,19 +165,22 @@ a {
 
 /* first section */
 #recently-played > .row,
-#foryou > .row {
+#foryou > .row,
+#popular > .row {
     padding: 0 .5rem;
 }
 
 #recently-played h3,
-#foryou h3 {
+#foryou h3,
+#popular h3 {
     color: white;
     text-align: center;
     padding-bottom: .5rem;
 }
 
 #recently-played .row .box,
-#foryou .row .box {
+#foryou .row .box,
+#popular .row .box {
     padding: .5rem;
 }
 
@@ -186,8 +189,19 @@ a {
 }
 
 /* second section */
-#foryou .descriptive-text {
+#foryou .descriptive-text,
+#popular .descriptive-text {
     padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* third section */
+#popular h2 {
+    padding-bottom: .5rem;
+}
+
+#popular .row .box img {
+    border-radius: 50%;
 }
 
 /* FOOTER */
