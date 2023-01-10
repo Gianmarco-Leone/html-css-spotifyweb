@@ -1,0 +1,176 @@
+/* LARGE DEVICE */
+@media screen and (max-width:992px) {
+    /* FOOTER */
+    footer > .main-footer .progress-bar {
+            width: 250px;
+        }
+
+    footer > .footer-right .progress-bar {
+            width: 80px;
+            margin-left: .3rem;
+        }
+}
+
+/* MEDIUM DEVICE */
+@media screen and (max-width:768px) {
+    /* MAIN CONTENT */
+    .main-content .col-2 {
+        flex-basis: calc((100% / 12) * 3);
+        max-width: calc((100% / 12) * 3);
+    }
+
+    /* FOOTER */
+    footer > .footer-left > img {
+        margin-right: .5rem;
+    }
+
+    footer > .main-footer .progress-bar {
+        width: 250px;
+    }
+
+    footer > .footer-right .progress-bar {
+        width: 80px;
+        margin-left: .3rem;
+    }
+
+    footer .box-bar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    footer > .footer-left > .song-text {
+        padding-right: 0;
+        font-size: .7rem;
+    }
+
+    footer > .footer-right i,
+    footer > .footer-left i {
+        padding-left: .3rem;
+    }
+}
+
+/* SMALL DEVICE */
+@media screen and (max-width:600px) {
+    /* MAIN CONTENT */
+    .main-content .col-2 {
+        flex-basis: calc((100% / 12) * 6);
+        max-width: calc((100% / 12) * 6);
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 0 .5rem;
+    }
+
+    footer>.footer-left>.footer-icon {
+        display: flex;
+        flex-direction: column;
+        padding-left: .5rem;
+    }
+
+    footer > .main-footer > .footer-icon > .fa-shuffle {
+        padding-left: 0;
+    }
+
+    footer i {
+        font-size: .7rem;
+    }
+
+    footer>.main-footer .progress-bar {
+        width: 150px;
+    }
+
+    footer>.footer-right .progress-bar {
+        width: 50px;
+        margin-left: .1rem;
+    }
+
+    footer > .footer-right i {
+        padding: 0;
+        font-size: .6rem;
+    }
+}
+
+/* EXTRA-SMALL DEVICE */
+@media screen and (max-width:480px) {
+    /* SIDEBAR */
+    .sidebar > .logo {
+        display: none;
+    }
+
+    .sidebar > .small-logo {
+        display: block;
+    }
+
+    .sidebar {
+        width: 40px;
+        align-items: center;
+    }
+
+    .sidebar > ul > li {
+        padding-left: 0;
+    }
+
+    .sidebar > .sections > li:first-child {
+        border-left: none
+    }
+
+    .sidebar .sidebar-bottom {
+        padding: 0 7px 4px 7px;
+        margin: auto 0 0 0;
+    }
+
+    .sidebar .instal {
+        border: none;
+        padding: 0;
+    }
+
+    .sidebar .instal > img {
+        max-width: 30px;
+        padding: 0;
+    }
+
+    .sidebar .profile > img {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .sidebar span {
+        display: none;
+    }
+
+    .sidebar > .playlist {
+        display: none;
+    }
+
+    .sidebar h3 {
+        display: none;
+    }
+
+    /* CONTENT */
+    .content {
+        width: calc(100% - 40px);
+    }
+
+    .header-content {
+        width: calc(100% - 40px);
+    }
+
+    /* FOOTER */
+    footer >.footer-left .footer-icon {
+        padding-left: 0;
+    }
+
+    footer i {
+        /* font-size: .5rem; */
+    }
+
+    footer>.main-footer .progress-bar {
+        width: 100px;
+    }
+
+    footer>.footer-right .progress-bar {
+        width: 35px;
+        margin-left: .1rem;
+    }
+}
