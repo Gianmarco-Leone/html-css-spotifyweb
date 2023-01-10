@@ -180,6 +180,30 @@ NAVBAR
     margin: auto;
 }
 
+.main-content .photo-box {
+    position: relative;
+}
+
+.main-content .photo-box:hover img {  
+    cursor: pointer;
+    opacity: .6;
+}
+
+.main-content .box .fa-circle-play {
+    color: #FFF;
+    font-size: 5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    display: none;
+}
+
+.main-content .photo-box:hover .fa-circle-play {
+    display: block;
+}
+
 /****************
 FIRST SECTION
 ****************/
