@@ -67,6 +67,7 @@ SIDEBAR
     padding-top: .2rem;
     margin-bottom: .5rem;
     cursor: pointer;
+    max-width: 160px;
 }
 
 .sidebar > .sections > li:first-child {
@@ -118,6 +119,15 @@ SIDEBAR
     margin-right: .5rem;
 }
 
+.sidebar li:hover,
+.sidebar .instal-btn:hover {
+    color: #FFF;
+}
+
+.sidebar .create:hover .fa-plus {
+    background-color: #FFF;
+}
+
 /****************
 CONTENT
 ****************/
@@ -153,6 +163,11 @@ HEADER CONTENT
     margin-right: 1.2rem;
 }
 
+.header-content > .btn:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
 /****************
 MAIN CONTENT
 ****************/
@@ -162,9 +177,6 @@ MAIN CONTENT
     height: calc(100vh - 100px);
 }
 
-/****************
-NAVBAR
-****************/
 .main-content ul > li {
     display: inline-block;
     color: #A3A3A3;
@@ -178,6 +190,10 @@ NAVBAR
     width: 2rem;
     display: block;
     margin: auto;
+}
+
+.main-content nav li:hover {
+    color: #FFF;
 }
 
 .main-content .photo-box {
@@ -278,11 +294,21 @@ footer > .footer-left {
 footer > .footer-left > .song-text {
     padding-top: .5rem;
     padding-right: 1rem;
+    cursor: pointer;
 }
 
 footer > .footer-left > .footer-icon {
     padding-top: 1rem;
     font-size: 1rem;
+}
+
+footer > .footer-left > .footer-icon i:hover {
+    color: #FFF;
+}
+
+footer > .footer-left span:hover {
+    color: #FFF;
+    text-decoration: underline;
 }
 
 footer i {
@@ -292,6 +318,10 @@ footer i {
 
 footer .fa-circle-play {
     font-size: 1.4rem;
+}
+
+footer .fa-circle-play:hover {
+    transform: scale(1.5);
 }
 
 footer > .main-footer {
@@ -313,6 +343,14 @@ footer .box-bar {
     cursor: pointer;
 }
 
+footer .box-bar:hover .progress {
+    background-color: #ADFF2F;
+}
+
+footer .box-bar:hover .progress::after {
+    display: block;
+}
+
 footer > .main-footer .progress-bar {
     width: 400px;
     height: 4px;
@@ -332,7 +370,7 @@ footer .progress {
 
 footer .progress::after {
     content: '';
-    display: block;
+    display: none;
     height: 10px;
     width: 10px;
     border-radius: 50%;
