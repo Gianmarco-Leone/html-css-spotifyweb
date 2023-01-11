@@ -7,14 +7,14 @@ h1 {
     font-weight: bold;
     font-size: 2rem;
     padding: 2rem 1rem .5rem;
-    color: white;
+    color: #FFF;
 }
 
 h2 {
     font-weight: bold;
     font-size: 1.5rem;
     padding: 1.5rem 1rem;
-    color: white;
+    color: #FFF;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
 }
 
 .bold-text {
-    color: white;
+    color: #FFF;
     font-weight: bold;
 }
 
@@ -50,13 +50,13 @@ TOP-CONTENT
 SIDEBAR
 ****************/
 .sidebar {
-    width: 300px;
+    width: 200px;
     background-color: #111;
     color: #FFF;
 }
 
 .sidebar > .logo {
-    width: 60%;
+    width: 80%;
     padding: 1rem;
 }
 
@@ -76,7 +76,7 @@ SIDEBAR
 }
 
 .sidebar > .sections > li:first-child {
-    color: white;
+    color: #FFF;
     border-left: 2px solid #ADFF2F;
 }
 
@@ -145,7 +145,7 @@ SIDEBAR
 CONTENT
 ****************/
 .content {
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     background-color: #141922;
 }
 
@@ -155,7 +155,7 @@ HEADER CONTENT
 .header-content {
     height: 100px;
     position: fixed;
-    width: calc(100% - 300px);
+    width: calc(100% - 200px);
     top: 0;
     z-index: 1;
     background-color: rgba(0, 0, 0, .4);
@@ -165,7 +165,7 @@ HEADER CONTENT
 }
 
 .header-content > .btn {
-    color: white;
+    color: #FFF;
     border-radius: 1rem;
     padding: .5rem 1.5rem;
     font-weight: bold;
@@ -245,7 +245,7 @@ FIRST SECTION
 #recently-played h3,
 #foryou h3,
 #popular h3 {
-    color: white;
+    color: #FFF;
     text-align: center;
     padding-bottom: .5rem;
 }
@@ -286,7 +286,7 @@ FOOTER
 footer {
     height: 100px;
     background-color: #282828;
-    color: white;
+    color: #FFF;
     padding: 0 1rem;
     position: fixed;
     bottom: 0;

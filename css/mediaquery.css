@@ -1,14 +1,22 @@
 /* LARGE DEVICE */
 @media screen and (max-width:992px) {
+    .main-content .box h3 {
+    font-size: .9rem;
+    }
+
     /* FOOTER */
+    footer .box-bar {
+        padding-left: .2rem;
+    }
+
     footer > .main-footer .progress-bar {
-            width: 250px;
-        }
+        width: 250px;
+    }
 
     footer > .footer-right .progress-bar {
-            width: 80px;
-            margin-left: .3rem;
-        }
+        width: 80px;
+        margin-left: .3rem;
+    }
 }
 
 /* MEDIUM DEVICE */
