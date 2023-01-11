@@ -53,6 +53,7 @@ SIDEBAR
     width: 200px;
     background-color: #111;
     color: #FFF;
+    overflow: auto;
 }
 
 .sidebar > .logo {
@@ -86,6 +87,7 @@ SIDEBAR
 } 
 
 .sidebar > .playlist {
+    min-height: 25vh;
     max-height: 50vh;
     overflow: auto;
 }
@@ -288,11 +290,6 @@ footer {
     background-color: #282828;
     color: #FFF;
     padding: 0 1rem;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    z-index: 1;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
