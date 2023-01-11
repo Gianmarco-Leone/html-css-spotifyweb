@@ -182,3 +182,20 @@
         margin-left: .1rem;
     }
 }
+
+/*********
+BONUS
+*********/
+@media screen and (max-width:768px) {
+    .main-content #recently-played .row {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-height:480px) {
+    .content .header-content {
+        display: none;
+    }   
+}
