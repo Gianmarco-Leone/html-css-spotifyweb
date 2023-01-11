@@ -4,6 +4,10 @@
     font-size: .9rem;
     }
 
+    .main-content .box .fa-circle-play {
+        font-size: 4rem;
+    }
+
     /* FOOTER */
     footer .box-bar {
         padding-left: .2rem;
@@ -63,6 +67,10 @@
     .main-content .col-2 {
         flex-basis: calc((100% / 12) * 6);
         max-width: calc((100% / 12) * 6);
+    }
+
+    .main-content .box .fa-circle-play {
+        font-size: 5rem;
     }
 
     /* FOOTER */
