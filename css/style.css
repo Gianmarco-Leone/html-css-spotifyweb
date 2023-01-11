@@ -419,3 +419,11 @@ footer > .footer-right .progress-bar {
 
     position: relative;
 }
+
+/**********  
+BONUS 3
+**********/
+/* .main-content .box .photo-box:hover {
+    transform: scale(1.1);
+    transition: 1s;
+} */

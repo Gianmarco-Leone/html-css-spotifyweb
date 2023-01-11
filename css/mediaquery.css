@@ -81,7 +81,7 @@
     }
 
     footer i {
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     footer>.main-footer .progress-bar {
@@ -186,6 +186,7 @@
 /*********
 BONUS
 *********/
+/* BONUS 1 */
 @media screen and (max-width:768px) {
     .main-content #recently-played .row {
         flex-wrap: nowrap;
@@ -194,8 +195,47 @@ BONUS
     }
 }
 
+/* BONUS 2 */
 @media screen and (max-height:480px) {
     .content .header-content {
         display: none;
     }   
+}
+
+/* BONUS 4 */
+@media screen and (max-width:600px) {
+
+    footer > .main-footer {
+        padding: 0 .5rem;
+    }
+
+    footer > .footer-right .progress-bar {
+        height: 80px;
+        width: 4px;
+        border-radius: 2px;
+        background-color: #666;
+        margin: 0 1rem;
+
+        position: relative;
+    }
+
+    footer .footer-right .progress::after {
+        content: '';
+        display: none;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: #ddd;
+
+        position: absolute;
+        top: 30%;
+        right: -3px;
+    }
+
+    footer .footer-right .progress {
+        height: 30%;
+        background-color: #ddd;
+        width: 100%;
+        display: block;
+    }
 }
