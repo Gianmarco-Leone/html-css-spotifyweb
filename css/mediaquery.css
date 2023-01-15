@@ -25,12 +25,6 @@
 
 /* MEDIUM DEVICE */
 @media screen and (max-width:768px) {
-    /* MAIN CONTENT */
-    .main-content .col-2 {
-        flex-basis: calc((100% / 12) * 3);
-        max-width: calc((100% / 12) * 3);
-    }
-
     /* FOOTER */
     footer > .footer-left > img {
         margin-right: .5rem;
@@ -64,11 +58,6 @@
 /* SMALL DEVICE */
 @media screen and (max-width:600px) {
     /* MAIN CONTENT */
-    .main-content .col-2 {
-        flex-basis: calc((100% / 12) * 6);
-        max-width: calc((100% / 12) * 6);
-    }
-
     .main-content .box .fa-circle-play {
         font-size: 5rem;
     }
@@ -176,11 +165,7 @@
     footer >.footer-left .footer-icon {
         padding-left: 0;
     }
-
-    footer i {
-        /* font-size: .5rem; */
-    }
-
+    
     footer>.main-footer .progress-bar {
         width: 100px;
     }
